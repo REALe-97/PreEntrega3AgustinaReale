@@ -12,61 +12,67 @@
     <link rel="stylesheet" href="../estilos.css" </head>
 
 <body>
-    <!--nav bar start-->
-    <nav class="navbar bg-dark navbar-dark">
+    <!--nav bar-->
+    <nav class="navbar navbar-expand-sm navbar-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="../index.html">
-                <img src="#" alt="studiologo" />
+                <img src="../images/imagen-favicon18.png" alt="logo_lediable">
                 <span>LeDiable</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse dropdown d-flex justify-content-end" id="collapsibleNavbar">
+            <div class="collapse navbar-collapse d-flex justify-content-end" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <ul class="dropdown-menu d-flex flex-column justify-content-end">
-                            <li>
-                                <a class="dropdown-item" href="artistas.html">Artistas</a>
-                            </li>
-                            <li><a class="dropdown-item" href="./contacto.html">Contacto</a></li>
-                            <li><a class="dropdown-item" href="#">Talleres</a></li>
-                        </ul>
+                        <a class="nav-link" href="./artistas.html">ARTISTAS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">TALLERES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">CONTACTO</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <!--nav bar termina-->
-    <!--mapa-->
+    <!--nav bar fin-->
+    <!--mapa y contacto-->
+    <main class="contacto">
     <div class="content-fluid">
         <div class="row">
             <div class="col-xs-12 col-xl-6">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13137.529367513358!2d-58.4059338!3d-34.5944921!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccada2238532b%3A0xc2b389c5ad4b261b!2sSantiago%20del%20Estero%20366%2C%20C1075AAH%20CABA!5e0!3m2!1ses!2sar!4v1694430647234!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>    
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13137.529367513358!2d-58.4059338!3d-34.5944921!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccada2238532b%3A0xc2b389c5ad4b261b!2sSantiago%20del%20Estero%20366%2C%20C1075AAH%20CABA!5e0!3m2!1ses!2sar!4v1694430647234!5m2!1ses!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
             <div class="col-md-4">
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Dejanos tu contacto</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1"
-                        placeholder="@tuinstagram" />
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="@tuinstagram" />
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">¡Contanos tu idea!</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Dejanos medidas en cm, posibles ubicaciones y artista elegido"></textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                        placeholder="Dejanos medidas en cm, posibles ubicaciones y artista elegido"></textarea>
                 </div>
                 <div class="mb-3">
                     <label for="formFileMultiple" class="form-label">Dejanos una referencia</label>
                     <input class="form-control" type="file" id="formFileMultiple" multiple>
                 </div>
-                <a href="#">Contactanos</a>
+                <a href="https://www.instagram.com/lediable.estudio/">Contactanos</a>
             </div>
         </div>
     </div>
-    <!--contacto fin-->
+</main>
+    <!--mapra y contacto fin-->
     <footer class="row">
         <div class="content-fluid">
             <i class="fa-brands fa-instagram"></i>
-            <a class="instagram" href="https://www.instagram.com/lediable.estudio/" target="_blank">¡Seguinos en Instagram!</a>
+            <a class="instagram" href="https://www.instagram.com/lediable.estudio/" target="_blank">¡Seguinos en
+                Instagram!</a>
             <p>Lugar seguro, artístico e inclusivo. Desde 2011 | Todos los derechos reservados.</p>
         </div>
     </footer>
