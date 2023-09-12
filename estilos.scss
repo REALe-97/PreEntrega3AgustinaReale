@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link{
+    color: darkmagenta;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.navbar{
+    background-color: red;
+}
+
+@media only screen and (min-widht:0) and (max-widht:576) {
+    .navbar-collapsed{
+        background-color: red;
+        display: flex;
+        justify-content: end;
+    }
+}
+.jumbotron{
+    height: 400px;
+    width: 100%;
+    background-image:url(images/imagen-estudio12.png);
+    background-size: cover;
+    background-position: center;    
+}
+
+.call {
+    text-align: center;
+    display: block;
+    justify-items: center;
+    background-color: black;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.galeriaitem{
+    padding: 5px;
+    border-radius: 3px;
+}
+
+footer{
+    display: row;
+    height: 60px;
+    width: 100vw;
+    background-color: red;
+}
+
+.a instagram{
+    height: 30px;
+    width: 30px;
+}
